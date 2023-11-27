@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books4MU</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+<link rel="manifest" href="favicon_io/site.webmanifest">
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <div class="header-1">
+
+        <a href="index.html" class="logo"> <i class="fas fa-book"></i> Books4MU </a>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="./cart.html" class="fas fa-shopping-cart"></a>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+
+    </div>
+
+    <div class="header-2">
+        <nav class="navbar">
+            <a href="./index.html">Trang Chủ</a>
+            <a href="#featured">Đặc sắc</a>
+            <a href="#arrivals">Sản phẩm</a>
+            <a href="#reviews">reviews</a>
+            <a href="#blogs">feedback</a>
+        </nav>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- bottom navbar  -->
+
+<nav class="bottom-navbar">
+    <a href="#home" class="fas fa-home"></a>
+    <a href="#featured" class="fas fa-list"></a>
+    <a href="#arrivals" class="fas fa-tags"></a>
+    <a href="#reviews" class="fas fa-comments"></a>
+    <a href="#feedback" class="fas fa-feedback"></a>
+</nav>
+
+<!-- login form  -->
+
+<div class="login-form-container">
+
+    <div id="close-login-btn" class="fas fa-times"></div>
+
+    <form action="">
+        <h3>Đăng Nhập</h3>
+        <span>Tài Khoản</span>
+        <input type="email" name="" class="box" placeholder="enter your email" id="">
+        <span>Mật Khẩu</span>
+        <input type="password" name="" class="box" placeholder="enter your password" id="">
+        <div class="checkbox">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me"> Ghi Nhớ.</label>
+        </div>
+        <input type="submit" value="sign in" class="btn">
+        <p>Quên Mật Khẩu ? <a href="#">click here</a></p>
+        <p>Không Có Tài Khoản <a href="#">create one</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="row">
+
+        <div class="content">
+            <h3>Giảm Giá Lên Đến 75% </h3>
+            <p>Chào mừng bạn đến với Books4MU - không chỉ là cửa hàng sách mà còn là nguồn cảm hứng đầy màu sắc cho cuộc sống của bạn! Tại đây, chúng tôi tự hào mang đến cho bạn không gian đa dạng với những tác phẩm xuất sắc từ cả tác giả nổi tiếng và những người mới nổ</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="swiper books-slider">
+            <div class="swiper-wrapper">
+                <a href="#" class="swiper-slide"><img src="picture/pic1.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="picture/pic2.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="picture/pic3.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="picture/pic4.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="picture/pic5.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="picture/pic6.jpg" alt=""></a>
+            </div>
+            <img src="image/stand.png" class="stand" alt="">
+        </div>
+
+    </div>
+
+</section>
+
+<!-- home section ense  -->
+
+<!-- icons section starts  -->
+
+<section class="icons-container">
+
+    <div class="icons">
+        <i class="fas fa-shipping-fast"></i>
+        <div class="content">
+            <h3>free shipping</h3>
+            <p>Cho Đơn Hàng Từ 100.000 Đồng</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-redo-alt"></i>
+        <div class="content">
+            <h3>Hỗ Trợ Đổi Trả</h3>
+            <p>Trong vòng 10 ngày</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-headset"></i>
+        <div class="content">
+            <h3>Hỗ Trợ 24/7</h3>
+            <p></p>
+        </div>
+    </div>
+
+</section>
+
+<!-- icons section ends -->
+
+<!-- featured section starts  -->
+
+<section class="featured" id="featured">
+
+    <h1 class="heading"> <span>Sách Bán Chạy</span> </h1>
+
+    <div class="swiper featured-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                   <a href="/productall/product.html"> <img src="picture/pic1.jpg" alt=""> </a>
+                </div>
+                <div class="content">
+                    <h3>Chí Phèo</h3>
+                    <div class="price">120.000đ <span>180.000đ</span></div>
+                    <a href="./cart.html" class="btn">Thêm vào giỏ hàng</a>
+                </div>  
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <a href="/productall/product1.html"> <img src="picture/pic2.jpg" alt=""> </a>
+                </div>
+                <div class="content">
+                    <h3>Bí mật do thái</h3>
+                    <div class="price">120.000đ <span>180.000đ</span></div>
+                    <a href="./cart.html" class="btn">Thêm vào giỏ hàng </a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <a href="/productall/product2.html"><img src="picture/pic3.jpg" alt=""> </a>
+                </div>
+                <div class="content">
+                    <h3>Tôi không thích ồn ào</h3>
+                    <div class="price">100.000đ <span>1500.00đ</span></div>
+                    <a href="./cart.html" class="btn">Thêm vào giỏ hàng</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <a href="/productall/product3.html"><img src="picture/pic4.jpg" alt=""> </a>
+                </div>
+                <div class="content">
+                    <h3>Sự tích bánh trưng bánh giầy</h3>
+                    <div class="price">30.000đ <span>50.000đ</span></div>
+                    <a href="./cart.html" class="btn">thêm vào giỏ hàng</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <a href="/productall/product4.html"><img src="picture/pic5.jpg" alt=""> </a>
+                </div>
+                <div class="content">
+                    <h3>Chuyến đi của thanh xuân</h3>
+                    <div class="price">120.000đ <span>180.000đ</span></div>
+                    <a href="./cart.html" class="btn">Thêm vào giỏ hàng</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <a href="/productall/product5.html"><img src="picture/pic6.jpg" alt=""> </a>
+                </div>
+                <div class="content">
+                    <h3>Đắc nhân tâm</h3>
+                    <div class="price">150.000đ <span>260.000đ</span></div>
+                    <a href="./cart.html" class="btn">Thêm vào giỏ hàng</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <a href="/productall/product6.html"><img src="picture/pic7.jpg" alt=""> </a>
+                </div>
+                <div class="content">
+                    <h3>Phụ nữ Việt Nam</h3>
+                    <div class="price">175.000đ <span>180000đ</span></div>
+                    <a href="./cart.html" class="btn">Thêm vào giỏ hàng</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <a href="/productall/product7.html"><img src="picture/pic8.jpg" alt=""> </a>
+                </div>
+                <div class="content">
+                    <h3>Bầu trời năm ấy </h3>
+                    <div class="price">180.000đ <span>280.000đ</span></div>
+                    <a href="./cart.html" class="btn">Thêm vào giỏ hàng</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <a href="/productall/product8.html"><img src="picture/pic9.jpg" alt=""> </a>
+                </div>
+                <div class="content">
+                    <h3>Doremon</h3>
+                    <div class="price">19.000đ <span>20.900đ</span></div>
+                    <a href="./cart.html" class="btn">Thêm vào giỏ hàng</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <a href="/productall/product9.html"><img src="picture/pic10.jpg" alt=""> </a>
+                </div>
+                <div class="content">
+                    <h3>Truyện Kiều</h3>
+                    <div class="price">54.000đ <span>99.000đ</span></div>
+                    <a href="./cart.html" class="btn">Thêm vào giỏ hàng</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+</section>
+
+<!-- featured section ends -->
+
+<!-- newsletter section starts -->
+
+<section class="newsletter">
+
+    <form action="">
+        <h3>Đăng ký email để nhận thông tin sớm nhất</h3>
+        <input type="email" name="" placeholder="enter your email" id="" class="box">
+        <input type="submit" value="Đăng ký" class="btn">
+    </form>
+
+</section>
+
+<!-- newsletter section ends -->
+
+<!-- category section starts  -->
+
+<section class="arrivals" id="arrivals">
+
+    <h1 class="heading"> <span>Sản Phẩm</span> </h1>
+
+    <div class="swiper arrivals-slider">
+
+        <div class="swiper-wrapper">
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="picture/pic1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Chí Phèo</h3>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="picture/pic4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Sự tích bánh chưng bánh giầy</h3> 
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="picture/pic6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Đắc nhân tâm</h3>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="picture/pic7.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Phụ nữ Việt Nam</h3>
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="swiper arrivals-slider">
+
+        <div class="swiper-wrapper">
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="picture/pic8.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Bầu trời năm ấy</h3>  
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="picture/pic9.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Doremon</h3> 
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="picture/pic10.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Truyện Kiều</h3> 
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="picture/pic3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Tôi không thích ồn ào</h3>
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- category section ends -->
+
+<!-- deal section starts  -->
+
+<section class="deal">
+
+    <div class="content">
+        <h3>deal of</h3>
+        <h1>Giảm giá 50%</h1>
+        <p>Đặt hàng trước ngày 25/11 để được hưởng ưu đãi</p>
+        <a href="#" class="btn">Mua ngay</a>
+    </div>
+
+    <div class="image">
+        <img src="image/deal-img.jpg" alt="">
+    </div>
+
+</section>
+
+<!-- deal section ends -->
+
+<!-- reviews section starts  -->
+
+<section class="reviews" id="reviews">
+
+    <h1 class="heading"> <span>Đánh giá của khách hàng</span> </h1>
+
+    <div class="swiper reviews-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="picture/pic-1.jpg" alt="">
+                <h3>Tú Anh </h3>
+                <p>mọi người nên ủng hộ shop nha uy tín</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="picture/pic-2.jpg" alt="">
+                <h3>Ronaldo</h3>
+                <p>Hỗ trợ khách hàng nhiệt tình </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="picture/pic-3.jpg" alt="">
+                <h3>NguyeenVu</h3>
+                <p>Sản phẩm rất tốt mọi người ủng hộ nha</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="picture/pic-4.jpg" alt="">
+                <h3>Trường Giang </h3>
+                <p>giao hàng nhanh </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">  
+                <img src="picture/pic-5.jpg" alt="">
+                <h3>Giang</h3>
+                <p>hài lòng</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    
+</section>
+
+<!-- reviews section ends -->
+
+<!-- feedback section starts  -->
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> <span>Đánh giá</span> </h1>
+
+    <section class="newsletter">
+
+        <form action="">
+            <h3>Mời bạn nhập đánh giá</h3>
+            <a href="./feedback.html" class="btn">Feedback</a>
+            <!-- <a href="./feedback.html"><input type="submit" value="feedback"> -->
+            </a>
+        </form>
+    
+    </section>
+</section>
+
+<!-- feedback section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        
+
+        <div class="box">
+            <h3>Liên kết</h3>
+          <a href="./index.html"> <i class="fas fa-arrow-right"></i> Trang Chủ </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> Đặc Sắc </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> Loại Sách </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> reviews </a>
+          <a href="./feedback.html"> <i class="fas fa-arrow-right"></i> feedback </a>
+        </div>
+
+        <div class="box">
+            <h3>liên kết bổ sung</h3>
+          <a href="#"> <i class="fas fa-arrow-right"></i> Thông tin tài khoản </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> Trạng thái đơn hàng </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> Chính sách </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> Phương thức thanh toán </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> Dịch vụ </a>
+        </div>
+
+        <div class="box">
+            <h3>Thông tin liên hộ</h3>
+          <a href="#"> <i class="fas fa-phone"></i> 0866902722 </a>
+          <a href="#"> <i class="fas fa-envelope"></i> Nguyenvuxx2003@gmail.com </a>
+          <img src="image/worldmap.png" class="map" alt="">
+        </div>
+        
+    </div>
+
+    <div class="share">
+        <a href="https://www.facebook.com/Nguyen.Vu200x" class="fab fa-facebook-f"></a>
+      <a href="https://www.instagram.com/nguyeen_vu/" class="fab fa-instagram"></a>
+    </div>
+
+    <div class="credit"> created by <span>Nguyên Vũ, Tú Anh,Trường Giang </span>copyright &copy;2023 all rights reserved! </div>
+
+</section>
+
+<!-- footer section ends -->
+
+<!-- loader  -->
+
+<div class="loader-container">
+    <img src="picture/loader.gif" alt="">
+</div>
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>

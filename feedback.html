@@ -1,0 +1,231 @@
+<!DOCTYPE html>    
+<html>    
+<head>    
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<link rel="stylesheet" href="./css/style.css">  
+ <!-- font awesome cdn link  -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+ <!-- favicon -->
+ <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/favicon-16x16.png">
+ <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+ <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/apple-touch-icon.png">
+ <link rel="manifest" href="/favicon_io/site.webmanifest">
+ <title> Feedback </title>
+<style>    
+* {    
+  box-sizing: border-box;    
+}    
+    
+input[type=text], select, textarea {    
+  width: 100%;    
+  padding: 12px;    
+  border: 1px solid rgb(70, 68, 68);    
+  border-radius: 4px;    
+  resize: vertical;    
+}    
+input[type=email], select, textarea {    
+  width: 100%;    
+  padding: 12px;    
+  border: 1px solid rgb(70, 68, 68);    
+  border-radius: 4px;    
+  resize: vertical;    
+}    
+    
+label {    
+  padding: 12px 12px 12px 0;    
+  display: inline-block;    
+}    
+    
+input[type=submit] {    
+  background-color: rgb(37, 116, 161);    
+  color: white;    
+  padding: 12px 20px;    
+  border: none;    
+  border-radius: 4px;    
+  cursor: pointer;    
+  float: right;    
+}    
+    
+input[type=submit]:hover {    
+  background-color: #45a049;    
+}    
+    
+.container {    
+  border-radius: 5px;    
+  background-color: #f2f2f2;    
+  padding: 20px;    
+}    
+    
+.col-25 {    
+  float: left;    
+  width: 25%;    
+  margin-top: 6px;    
+}    
+    
+.col-75 {    
+  float: left;    
+  width: 75%;    
+  margin-top: 6px;    
+}    
+    
+/* Clear floats after the columns */    
+.row:after {    
+  content: "";    
+  display: table;    
+  clear: both;    
+}    
+    
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */    
+</style>    
+</head>    
+<body>
+    
+    <!-- header section starts  -->
+
+<header class="header">
+
+    <div class="header-1">
+
+        <a href="#" class="logo"> <i class="fas fa-book"></i> Books4MU </a>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="cart.html" class="fas fa-shopping-cart"></a>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+
+    </div>
+
+    <div class="header-2">
+        <nav class="navbar">
+          <a href="./index.html">Trang Chủ</a>
+          <a href="#featured">Đặc sắc</a>
+          <a href="./category.html">Sản Phẩm</a>
+          <a href="#reviews">reviews</a>
+          <a href="#blogs">feedback</a>
+        </nav>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- bottom navbar  -->
+
+<nav class="bottom-navbar">
+    <a href="#home" class="fas fa-home"></a>
+    <a href="#featured" class="fas fa-list"></a>
+    <a href="#arrivals" class="fas fa-tags"></a>
+    <a href="#reviews" class="fas fa-comments"></a>
+    <a href="#feedback" class="fas fa-feedback"></a>
+</nav>
+
+
+<h2>Phản hồi của khách hàng</h2>    
+<div class="container">    
+  <form>    
+    <div class="row">    
+      <div class="col-25">    
+        <label for="fname">Họ và tên</label>    
+      </div>    
+      <div class="col-75">    
+        <input type="text" id="fname" name="firstname" placeholder="Nguyễn Văn A">    
+      </div>    
+    </div>       
+    <div class="row">    
+        <div class="col-25">    
+          <label for="email">Mail</label>    
+        </div>    
+        <div class="col-75">    
+          <input type="email" id="email" name="mailid" placeholder="nguyenvan@gmail.com">    
+        </div>    
+      </div>    
+    <div class="row">    
+      <div class="col-25">    
+        <label for="country">Tỉnh</label>    
+      </div>    
+      <div class="col-75">    
+        <select id="country" name="Tỉnh">    
+            <option value="none">Tỉnh</option>       
+          <option value="HCM">Hồ Chí Minh</option>      
+          <option value="HN">Hà Nội</option>  
+          <option value="hagiang">Hà Giang</option>  
+          <option value="quangninh">Quảng Ninh</option>  
+          <option value="sonla">Sơn La</option>    
+        <option value="quangbinh">Quảng Bình</option>  
+          <option value="quangnam">Quảng Nam</option>    
+          <option value="ninhbinh">Ninh Bình</option>    
+          <option value="taynguyen">Tây Nguyên</option>    
+          <option value="laichau">Lai Châu</option>    
+          <option value="laocai">Lào Cai</option>    
+        </select>    
+      </div>    
+    </div>    
+    <div class="row">    
+      <div class="col-25">    
+        <label for="feed_back">Đánh giá</label>    
+      </div>    
+      <div class="col-75">    
+        <textarea id="subject" name="subject" placeholder="Hãy viết đánh giá của bạn.." style="height:200px"></textarea>    
+      </div>    
+    </div>    
+    <div class="row">    
+      <input type="submit" value="Gửi">    
+    </div>    
+  </form>    
+</div>    
+ 
+<!-- footer section starts  -->
+
+<section class="footer">
+
+  <div class="box-container">
+
+
+      <div class="box">
+        <h3>Liên kết</h3>
+        <a href="./index.html"> <i class="fas fa-arrow-right"></i> Trang Chủ </a>
+        <a href="#"> <i class="fas fa-arrow-right"></i> Đặc Sắc </a>
+        <a href="#"> <i class="fas fa-arrow-right"></i> Loại Sách </a>
+        <a href="#"> <i class="fas fa-arrow-right"></i> reviews </a>
+        <a href="./feedback.html"> <i class="fas fa-arrow-right"></i> feedback </a>
+      </div>
+
+      <div class="box">
+        <h3>Liên kết bổ sung</h3>
+        <a href="#"> <i class="fas fa-arrow-right"></i> Thông tin tài khoản </a>
+        <a href="#"> <i class="fas fa-arrow-right"></i> Trạng thái đơn hàng </a>
+        <a href="#"> <i class="fas fa-arrow-right"></i> Chính sách </a>
+        <a href="#"> <i class="fas fa-arrow-right"></i> Phương thức thanh toán </a>
+        <a href="#"> <i class="fas fa-arrow-right"></i> Dịch vụ </a>
+      </div>
+
+      <div class="box">
+        <h3>Thông tin liên hệ</h3>
+        <a href="#"> <i class="fas fa-phone"></i> 0866902722 </a>
+        <a href="#"> <i class="fas fa-envelope"></i> Nguyenvuxx2003@gmail.com </a>
+        <img src="image/worldmap.png" class="map" alt="">
+      </div>
+      
+  </div>
+
+  <div class="share">
+    <a href="https://www.facebook.com/Nguyen.Vu200x" class="fab fa-facebook-f"></a>
+    <a href="https://www.instagram.com/nguyeen_vu/" class="fab fa-instagram"></a>
+  </div>
+
+  <div class="credit"> created by <span>Nguyên Vũ, Tú Anh,Trường Giang </span>copyright &copy;2022 all rights reserved! </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+<script src="./js/script.js"></script>
+</body>    
+</html>    
